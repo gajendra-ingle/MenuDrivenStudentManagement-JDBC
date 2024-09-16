@@ -31,7 +31,7 @@ The **Menu Driven Student Management System** is a Java CLI application develope
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/MenuDrivenStudentManagement-JDBC.git
-2. Configure the Database: Run the following SQL commands in MySQL:
+2. **Configure the Database:** Run the following SQL commands in MySQL:
   ```sql
     CREATE DATABASE StudentDB;
 
@@ -45,13 +45,13 @@ The **Menu Driven Student Management System** is a Java CLI application develope
        phone_number VARCHAR(15)
    );
    ```
-3. Update JDBC Configuration: Modify the JDBC connection details in your Java code:
+3. **Update JDBC Configuration:** Modify the JDBC connection details in your Java code:
    ```java
    String url = "jdbc:mysql://localhost:3306/StudentDB";
    String username = "yourUsername";
    String password = "yourPassword";
    ```
-4. Compile and Run:
+4. **Compile and Run:**
    ```java
    javac com/StudentManagementCRUD/Main.java
    java com.StudentManagementCRUD.Main
